@@ -100,11 +100,6 @@ The API will be accessible at [http://localhost:8000](http://localhost:8000).
 [http://localhost:8000/products/](http://localhost:8000/products/) 
 
 ## 7. API Documentation
-Find swagger docs at [http://127.0.1:8000/docs/swagger](http://127.0.0.1:8000/docs/swagger).
-
-Find flower dashboard at [http://127.0.1:5555](http://127.0.0.1:5555).
+Find swagger docs at [http://127.0.1:8000/docs/](http://127.0.0.1:8000/docs).
 
 To access the Swagger documentation and test the endpoints, visit [http://localhost:8000/docs](http://localhost:8000/docs) and [http://localhost:8000/redoc](http://localhost:8000/redoc) in your web browser.
-The Swagger UI provides an interactive interface to explore the API, view the available endpoints, and test their functionalities.
-
-Make sure the API server is running before accessing the Swagger UI.
