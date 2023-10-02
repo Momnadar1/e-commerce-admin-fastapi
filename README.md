@@ -49,13 +49,13 @@ This is a FastAPI-based back-end API for an e-commerce admin dashboard. It provi
 
 ## 1. Clone the repository
 ```shell
-git clone 
+git clone git@github.com:Momnadar1/e-commerce-admin-fastapi.git
 ```
 ## 2. Virtual environment
 Create and activate virtual environment:
 ```shell
-cd E-commerce
-python3 -m venv venv
+cd e-commerce-admin-fastapi
+python -m venv venv
 source venv/Scripts/activate
 ```
 
@@ -64,10 +64,11 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-## 4. Database migration
+## 4. Database population
 Note: create the databases and populate sample data into the database tables.
 ```shell
 cd scripe__db_sample_data_population
+cd ..
 ```
 Foot-Note: Run each cell and populate data with the sequence of cells.
 
