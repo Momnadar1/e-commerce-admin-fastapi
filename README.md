@@ -1,6 +1,6 @@
 # E-commerce Admin API
 
-This is a FastAPI-based back-end API for an e-commerce admin dashboard. It provides functionalities for managing sales data, analyzing revenue, managing inventory, and registering new products.
+This is a FastAPI-based back-end API for an e-commerce admin dashboard. It provides functionalities for managing sales data, analyzing revenue, and registering new products.
 
 ## Features
 
@@ -10,9 +10,8 @@ This is a FastAPI-based back-end API for an e-commerce admin dashboard. It provi
    - Ability to compare revenue across different periods and categories.
    - Provide sales data by date range, product, and category.
 
-2. **Inventory Management:**
-   - Endpoints to view current inventory status, including low stock alerts.
-   - Functionality to update inventory levels and track changes over time.
+2. **Product Management:**
+   - Endpoints todo CRUD operations.
 
 ## Technical Stack
 
@@ -25,14 +24,7 @@ This is a FastAPI-based back-end API for an e-commerce admin dashboard. It provi
 
 1. Create a MySQL database for the project.
 2. Define the database connection URL in the FastAPI application.
-3. Define the database schema with tables for products, sales, and inventory.
-
-## Getting Started
-
-1. Clone the repository.
-2. Install the required dependencies: `pip install -r requirements.txt`.
-3. Run the FastAPI application: `uvicorn main:app --reload`.
-4. Access the API at `http://localhost:8000`.
+3. Define the database schema with tables for products, and sales.
 
 ## API Endpoints
 
@@ -40,12 +32,16 @@ This is a FastAPI-based back-end API for an e-commerce admin dashboard. It provi
    - Retrieve sales data by date range, year, and month.
    - Analyze revenue for various periods.
 
-- **Inventory:**
-   - View current inventory status.
-   - Update inventory levels.
-
 - **Products:**
    - Register new products.
+
+## Getting Started
+
+1. Clone the repository.
+2. Install the required dependencies: `pip install -r requirements.txt`.
+3. Run the FastAPI application: `uvicorn main:app --reload`.
+4. Access the API at `http://localhost:8000`.
+5. Use Postman or any other REST client tool of your choice to test out endpoints.
 
 ## 1. Clone the repository
 ```shell
